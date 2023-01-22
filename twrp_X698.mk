@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Infinix-X698 device
-$(call inherit-product, device/infinix/Infinix-X698/device.mk)
+$(call inherit-product, device/infinix/X698/device.mk)
 
-PRODUCT_DEVICE := Infinix-X698
-PRODUCT_NAME := twrp_Infinix-X698
+PRODUCT_DEVICE := X698
+PRODUCT_NAME := X698
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X698
 PRODUCT_MANUFACTURER := infinix
